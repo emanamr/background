@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>my background</title>
+    <link rel="stylesheet" href="back.css">
+    <script src="back.js">
+
+    </script>
+  </head>
+<!-- Button to open the modal -->
+
+
+<!-- The Modal (contains the Sign Up form) -->
+<div id="id01" class="modal">
+  <a href="E:\eman\background\back.html"onclick="document.getElementById('id01').style.display='none'">Close</a>
+ 
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+<table>
+  <tr>
+    <td><label for="email"><b>Email</b></label></td>
+    <td> <input type="text" placeholder="Enter Email" name="email" required></td>
+  </tr>
+   <tr>
+     <td> <label for="psw"><b>Password</b></label></td>
+     <td><input type="password" placeholder="Enter Password" name="psw" required></td>
+  </tr>
+  <tr>
+    <td><label for="psw-repeat"><b>Repeat Password</b></label></td>
+    <td><input type="password" placeholder="Repeat Password" name="psw-repeat" required></td>
+  </tr>
+
+</table>
+ 
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <a href='E:\eman\background\back.html'class="button">Cancel</a>
+        <button type="submit" class="signup">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+<!--script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script-->
