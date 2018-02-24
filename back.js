@@ -1,27 +1,26 @@
+// Get the modal
+$var modal = document.getElementById('id01');
 
-
-/*function myFunction(id){
-
-
- var photo1=document.getElementById('img1');
-  var photo2=document.getElementById('img2');
-  var photo3=document.getElementById('img3');
-  var photo=document.getElementById('image')
-
-  switch (id) {
-    case img1:
-  window.image.style.background="img\almastba.com_1388747529_171.jpg";
-      break;
-      case img3:window.image.style.background="pink";
-    default:photo2=document.getElementById('image').style.background;
-
-  }
-  if(id===img1){
-photo.setAttribute("background","red");
+// When the user clicks anywhere outside of the modal, close it
+$window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
-else if(id===img2){
-  photo2=document.getElementById('image').style.background;
+$var modal2 = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+$window.onclick = function(event) {
+    if (event.target == modal2) {
+        modal.style.display = "none";
+    }
 }
-else {
-  document.getElementById('image').style.background=photo3;
-}}*/
+$function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+}
+
+$function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
