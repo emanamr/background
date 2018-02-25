@@ -5,7 +5,7 @@ margin-left: 10px;
   border: 2px solid pink;
   border-radius: 150px;
   cursor: pointer;
-#
+
 
 }
 .img{
@@ -21,7 +21,8 @@ margin-left: 10px;
   border-radius: 50px;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;
+background-color:#ffe4e1; }
 * {box-sizing: border-box}
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -30,18 +31,18 @@ input[type=text], input[type=password] {
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
-    background: #f1f1f1;
+    background: #ffe4e1;
 }
 
 /* Add a background color when the inputs get focus */
 input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
+    background-color: lightpink;
     outline: none;
 }
 
 /* Set a style for all buttons */
 button {
-    background-color:#008b8b;
+    background-color:#8b008b;
     color: white;
   padding: 15px;
     margin: 8px 0;
@@ -60,8 +61,9 @@ button:hover {
 }
 ul, li{
   padding: 20px;
-  margin: 10px;
-  width: 150px;
+  margin: 20px;
+  width: 100px;
+  list-style: none;
 }
 
 /* Extra styles for the cancel button */
@@ -100,7 +102,7 @@ ul, li{
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 70%; /* Could be more or less, depending on screen size */
 }
 
 /* Style the horizontal ruler */
@@ -147,7 +149,7 @@ hr {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: lightblue;
+    background-color: #d8bfd8;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
